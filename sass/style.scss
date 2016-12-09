@@ -1,0 +1,54 @@
+.add_icon {
+	text-align: center;
+	font-size: 3em;
+	font-weight: 100;
+}
+.back-button.material-icons {
+	transform: rotate(45deg);
+}
+h1.brand-logo {
+	margin: 0.5em 0;
+}
+.tasks {
+	padding-top: 1em;
+	padding-bottom: 70px;
+	.task {
+		display: flex;
+		border: 1px solid #DDD;
+		border-bottom: none;
+		padding: 0.5em 1em;
+		cursor: pointer;
+		&:last-child {
+			border-bottom: 1px solid #CCC;
+		}
+		&:hover {
+			background: #FAFAFA;
+		}
+		.task-information {
+			padding-right: 1em;
+			width: 100%;
+			h2 {
+				color: #000;
+				font-size: 1.45em;
+				margin: 0.5em 0 0;
+			}
+			span {
+				font-size: 1em;
+				color: #CCC;
+			}
+		}
+		.task-state {
+			display: flex;
+			align-items: center;
+			.square {
+				border: 2px solid #333;
+				border-radius: 5px;
+				height: 20px;
+				width: 20px;
+			}
+			i {
+				color: #388E3C;
+			}
+		}
+	}
+}

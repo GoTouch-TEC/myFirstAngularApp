@@ -1,0 +1,25 @@
+{
+  "name": "tsecourseapp",
+  "description": "Creado para el curso del TSE",
+  "main": "index.js",
+  "authors": [
+    "Víctor Vargas Ramírez (vargasvr94@gmail.com)"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/GoTouch-TEC/myFirstAngularApp",
+  "moduleType": [
+    "es6"
+  ],
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "materialize": "^0.97.8",
+    "angular": "^1.6.0",
+    "angular-ui-router": "^0.3.2"
+  }
+}
